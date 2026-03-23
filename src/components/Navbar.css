@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  backdrop-filter: blur(10px);
+}
+
+/* LOGO */
+.logo {
+  font-family: 'Agdasima', sans-serif;
+  font-size: 28px;
+}
+
+/* MENU */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu li:hover {
+  opacity: 0.7;
+}
+
+/* BOTÕES */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.toggle,
+.config {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+.navbar.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar.dark .logo {
+  color: #F1C971;
+}
+
+.navbar.dark .menu li {
+  color: white;
+}
+
+.navbar.dark .toggle {
+  background-color: #3E006B;
+  color: white;
+}
+
+
+
+/* LIGHT MODE */
+.navbar.light {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar.light .logo {
+  color: #3E006B;
+}
+
+.navbar.light .menu li {
+  color: black;
+}
+
+.navbar.light .toggle {
+  background-color: #F1C971;
+  color: black;
+}
+
+.navbar.light .config {
+  background-color: #3E006B;
+  color: white;
+}

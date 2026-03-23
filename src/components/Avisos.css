@@ -1,0 +1,69 @@
+.avisos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  font-family: 'Poppins', sans-serif;
+
+  flex-shrink: 0; /* não interfere no layout */
+}
+
+/* LABEL */
+.avisos-label {
+  padding: 12px 24px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* CONTEÚDO */
+.avisos-content {
+  display: flex;
+  gap: 40px;
+  padding: 12px 24px;
+
+  flex-wrap: wrap;
+}
+
+/* TEXTO */
+.avisos-content span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+/* ================= DARK MODE ================= */
+.avisos.dark {
+  background-color: #1F0035; /* 🔥 nova cor */
+  color: white;
+}
+
+.avisos.dark .avisos-label {
+  background-color: #3E006B;
+  color: white;
+}
+
+/* ================= LIGHT MODE ================= */
+.avisos.light {
+  background-color: #F7E3B7; /* 🔥 nova cor */
+  color: black;
+}
+
+.avisos.light .avisos-label {
+  background-color: #F1C971;
+  color: black;
+}
+
+/* ÍCONE */
+.avisos span::before {
+  content: "⚠";
+}
+
+/* CORES DOS ÍCONES */
+.avisos.dark span::before {
+  color: #F1C971;
+}
+
+.avisos.light span::before {
+  color: #3E006B;
+}
