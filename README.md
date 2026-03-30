@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+██████╗ ██╗   ██╗███╗   ██╗
+██╔══██╗██║   ██║████╗  ██║
+██████╔╝██║   ██║██╔██╗ ██║
+██╔══██╗██║   ██║██║╚██╗██║
+██║  ██║╚██████╔╝██║ ╚████║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⚡ Zero config. One command. Ship it.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+</div>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> **Everything you need. Nothing you don't.**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these two steps and you're live.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Step 1 — Install Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open **Command Prompt** (`Win + R` → type `cmd` → hit Enter)
+
+```cmd
+npm install
+```
+
+```
+✔  Resolving packages...
+✔  Fetching packages...
+✔  Linking dependencies...
+✔  All done!
+```
+
+---
+
+### Step 2 — Start the Dev Server
+
+```cmd
+npm run dev
+```
+
+```
+  ➜  Local:   http://localhost:<Port>
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+```
+
+> 🟢 Open your browser and navigate to the URL shown above.
+
+---
+
+<div align="center">
+
+---
+
+*That's it. You're running.*
+
+</div>
